@@ -21,9 +21,9 @@ Then run `composer update` like usual.
 
 #### Add the new service provider
 
-Go into `app/config/app.php` and fine `Illuminate\Hashing\HashServiceProvider`. Change `Illuminate` to `Robbo`.
+Go into `app/config/app.php` and find `Illuminate\Hashing\HashServiceProvider`. Change `Illuminate` to `Robbo`.
 
-That's it, you are now using Sha512 hashing and compatable with PHP 5.3.2+
+That's it, you are now using Sha512 hashing and compatible with PHP 5.3.2+
 
 
 ## Coming soon....
