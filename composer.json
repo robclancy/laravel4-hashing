@@ -1,0 +1,26 @@
+{
+    "name": "robclancy/laravel4-hash",
+    "description": "Package for when you can't use Bcrypt in Laravel 4.",
+    "keywords": ["hashing", "password", "laravel"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Robert Clancy",
+            "email": "mail@robertclancy.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "illuminate/hashing": "4.0.x",
+        "PasswordLib/PasswordLib": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Robbo\\Hashing": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
