@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "illuminate/hashing": "4.0.x",
+        "illuminate/hashing": "4.x.x",
         "PasswordLib/PasswordLib": "*"
     },
     "require-dev": {
